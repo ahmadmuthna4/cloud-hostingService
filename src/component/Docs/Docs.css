@@ -1,0 +1,34 @@
+.docs-main h3 {
+    margin: 20px 0;
+}
+
+.docs-main .grid {
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+}
+
+.docs-main nav li {
+    font-size: 1.0625rem;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.docs-main a:hover {
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .docs-main .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .docs-head {
+        text-align: center;
+    }
+    .docs-head img {
+        width: 150px;
+        justify-self: center;
+    }
+}
+

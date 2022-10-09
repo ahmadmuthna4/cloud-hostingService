@@ -1,0 +1,17 @@
+.footer .social a {
+    margin: 0 10px;
+}
+.footer nav ul {
+    margin-top: 22px;
+}
+@media (max-width: 768px) {
+
+    .grid{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    footer nav{
+        transform: translate(-27px, 10px);
+        margin-bottom: 14px;
+    }
+}

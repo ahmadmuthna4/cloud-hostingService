@@ -1,0 +1,19 @@
+.cloud .grid {
+    grid-template-columns: 4fr 3fr;
+    border-radius: 10px;
+}
+.bg-secondaryss{
+    background-color: #1c3fa8;
+}
+
+@media (max-width: 768px) {
+    
+    .cloud .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+   
+    .cloud .grid {
+        border-radius: 0;
+    }
+}
